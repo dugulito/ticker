@@ -67,7 +67,7 @@ function rss_scr_show()
 					$cnt++;
 				}
 				?>
-				<div style="padding-top:5px;"> <span id="rss_scr_spancontant" style="position:absolute;<?php echo $rss_scr_width.$rss_scr_height; ?>"></span> </div>
+				<div> <span id="rss_scr_spancontant" style="position:absolute;<?php echo $rss_scr_width.$rss_scr_height; ?>"></span> </div>
 				<script src="<?php echo $siteurl; ?>/wp-content/plugins/rss-scroller/rss-scroller.js" type="text/javascript"></script>
 				<script type="text/javascript">
 					var rss_scr_contents=new Array()
@@ -169,7 +169,7 @@ function rss_scr_shortcode( $atts )
 					$rss_contents = $rss_contents . "rss_scr_contents[$cnt]='$content';";
 					$cnt++;
 				}
-				$rss_scr = $rss_scr .'<div style="padding-top:5px;"> <span id="rss_scr_spancontant" style="position:absolute;'.$rss_scr_width.$rss_scr_height.'"></span> </div>';
+				$rss_scr = $rss_scr .'<div> <span id="rss_scr_spancontant" style="position:absolute;'.$rss_scr_width.$rss_scr_height.'"></span> </div>';
 				$rss_scr = $rss_scr .'<script src="'.$siteurl.'/wp-content/plugins/rss-scroller/rss-scroller.js" type="text/javascript"></script>';
 				$rss_scr = $rss_scr .'<script type="text/javascript">';
 				$rss_scr = $rss_scr .'var rss_scr_contents=new Array(); ';

@@ -12,6 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
 This plug-in will display RSS feed with simple scroller or ticker. It gradually reveals each item into view from left to right.
 
+== Surevine changes ==
+
+* Update to tidy up javascript
+* Add ability to stop scroller - useful in development
+
 == Description ==
 
 Check official website for live demo [http://www.gopiplus.com/work/2010/07/18/rss-scroller/](http://www.gopiplus.com/work/2010/07/18/rss-scroller/)
